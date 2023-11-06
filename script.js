@@ -1,6 +1,7 @@
-
-document.querySelector(".menu-btn").addEventListener('click',function (e) {
+let hamburger = document.querySelector('.hamburger-menu');
+let mobMenu = document.querySelector('.menu-mob');
+hamburger.addEventListener('click', (e)=>{
     e.preventDefault();
-   this.classList.toggle("menu-btn_active");
-    document.querySelector(".menu-nav").classList.toggle("menu-nav_active");
-  }); 
+    hamburger.classList.toggle('hamburger-active');
+    mobMenu.classList.toggle('menu-mob-active')
+})
