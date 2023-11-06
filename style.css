@@ -467,7 +467,7 @@ footer .left{
     }
     .launcher{
         padding: 50px 50px 0 50px;
-        justify-content: center;
+        justify-content: space-between;
     }
     .launcher > img, .launcher .text{
         width: 45%;
