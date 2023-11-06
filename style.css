@@ -146,6 +146,7 @@ header{
     text-decoration: none;
     position: relative;
     overflow: hidden;
+    padding: 0 15px;
 }
 .launcher .text a img{
     height: 1rem;
@@ -532,7 +533,7 @@ footer .left{
         align-self: center;
     }
     .launcher .text a{
-        width: 50%;
+        width: 89%;
     }
     .social-bl{
         height: 8rem;
@@ -650,11 +651,22 @@ footer .left{
         width: 100%;
         justify-content: space-between;
     }
+    .social{
+        padding: 2rem 1rem;
+    }
     .social-bl{
         height: 3rem;
     }
     .social-bl svg{
         width: 40%;
     }
+    .social h2 {
+        font-size: 2rem;
+        padding-top: 1rem;
+      }
+      .social h3{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
   }
  
