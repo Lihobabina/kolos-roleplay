@@ -682,7 +682,7 @@ footer .left{
         padding: 0;
     }
     .start-sect .text{
-        padding: 25px;
+        padding: 25px 25px 0 25px;
     }
   }
  
