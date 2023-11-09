@@ -467,6 +467,9 @@ footer .left{
         padding: 50px 50px 0 50px;
         justify-content: space-between;
     }
+    .launcher .text{
+        row-gap: 25px;
+    }
     .launcher > img, .launcher .text{
         width: 45%;
     }
@@ -484,6 +487,8 @@ footer .left{
     }
     .launcher .text h6{
         align-self: flex-end;
+        margin-right: 40px;
+        margin-bottom: 15px;
     }
     .servers > h2{
         margin-bottom: 4rem;
@@ -531,6 +536,9 @@ footer .left{
     .launcher > img{
         width: 100%;
         align-self: center;
+    }
+    .launcher .text a{
+        width: 89%;
     }
     .social-bl{
         height: 8rem;
@@ -665,8 +673,10 @@ footer .left{
         font-size: 1.5rem;
         margin-bottom: 1rem;
       }
-          .launcher .text a{
-        width: 89%;
+      .launcher .text h6{
+        align-self: flex-end;
+        margin-right: 0;
+        margin-bottom: 15px;
     }
   }
  
