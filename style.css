@@ -687,5 +687,7 @@ footer .left{
     .news, .servers{
         padding: 0 25px;
     }
+      .servers{
+          margin-bottom: 25px;
   }
  
