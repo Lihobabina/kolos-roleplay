@@ -678,5 +678,11 @@ footer .left{
         margin-right: 0;
         margin-bottom: 15px;
     }
+    .container{
+        padding: 0;
+    }
+    .start-sect .text{
+        padding: 25px;
+    }
   }
  
