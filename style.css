@@ -204,20 +204,20 @@ header{
     margin-bottom: 150px;
 }
 /* Розкоментуйте для нових серверів V*/
-.servers-list{
+/* .servers-list{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     row-gap: 6rem;
-}
+} */
 /* A це закоментуйте V */
-/* .servers-list{
+.servers-list{
     width: 100%;
     display: flex;
     justify-content: center;
-} */
+}
 /*  */
 .server{
     width: 21%;
@@ -446,7 +446,7 @@ footer .left{
     text-decoration: none;
     color: #ffffff;
     transition: 1s;
-    font-size: 14px;
+    font-size: 13px;
   }
   .menu-nav a > svg{
     height: 10px;
@@ -717,7 +717,7 @@ footer .left{
         padding: 25px;
     }
     .news, .servers{
-        padding: 0 25px;
+        padding: 25px;
     }
   }
   @media (max-width: 357px){
